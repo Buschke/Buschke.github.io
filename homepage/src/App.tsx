@@ -8,8 +8,9 @@ interface AppProps {
 
 export const App: FC<AppProps> = ({ title }) => {
   return (
-    <div className='App'><h1>{title}</h1>
-    to the homepage of Sven Buschke, status: online
+    <div className='App'>
+      <h1>{title} Hallo</h1>
+    <FirstComponent title='Sven'/>
     </div>
   )
 }

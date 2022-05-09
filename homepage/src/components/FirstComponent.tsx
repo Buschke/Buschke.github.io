@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { Data } from './Data'
 //import './FirstComponent.scss'
 
 interface FirstComponentProps {
@@ -7,6 +8,8 @@ interface FirstComponentProps {
 
 export const FirstComponent: FC<FirstComponentProps> = ({title}) => {
   return (
-    <div className='FirstComponent'>FirstComponent {title}</div>
+    <div className='FirstComponent'>FirstComponent {title}
+    <Data title='Data' />
+    </div>
   )
 }
