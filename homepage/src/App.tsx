@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import './App.css'
+import { FirstComponent } from './components/FirstComponent'
 
 interface AppProps {
   title: string
