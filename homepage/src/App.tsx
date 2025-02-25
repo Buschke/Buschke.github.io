@@ -9,7 +9,7 @@ interface AppProps {
 export const App: FC<AppProps> = ({ title }) => {
   return (
     <div className='App'>
-      <h1>{title} Hallo</h1>
+      <h1>{title} Hallo!</h1>
     <FirstComponent title='Sven'/>
     </div>
   )
